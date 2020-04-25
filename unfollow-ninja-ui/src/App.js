@@ -68,7 +68,7 @@ function App() {
         <Section>
           <Box direction='row' wrap={true} margin={{vertical: 'large'}}>
             <Box basis='medium' flex={true} pad='medium'>
-              <Heading level={1} color='dark'>Get notified when your Twitter account loses a followers</Heading>
+              <Heading level={1} color='dark'>Get notified when your Twitter account loses a follower</Heading>
               <Paragraph size='large'>Unfollow Monkey sends you a direct message as soon as a twitter user unfollows you, blocks you, or leave Twitter, within seconds.</Paragraph>
               {isFrench ? <Paragraph margin={{top: 'xsmall'}}>
                 Francais? Découvrez aussi <Link href='https://unfollow.ninja/?utm_source=unfollowmonkey'>https://unfollow.ninja</Link>
