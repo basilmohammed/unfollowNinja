@@ -68,8 +68,8 @@ function App() {
         <Section>
           <Box direction='row' wrap={true} margin={{vertical: 'large'}}>
             <Box basis='medium' flex={true} pad='medium'>
-              <Heading level={1} color='dark'>Be quickly notified about your Twitter unfollowers</Heading>
-              <Paragraph size='large'>Unfollow Monkey sends you a notification as soon as a tweeter unsubscribes from your account, within seconds.</Paragraph>
+              <Heading level={1} color='dark'>Get notified when your Twitter account loses a followers</Heading>
+              <Paragraph size='large'>Unfollow Monkey sends you a direct message as soon as a twitter user unfollows you, blocks you, or leave Twitter, within seconds.</Paragraph>
               {isFrench ? <Paragraph margin={{top: 'xsmall'}}>
                 Francais? Découvrez aussi <Link href='https://unfollow.ninja/?utm_source=unfollowmonkey'>https://unfollow.ninja</Link>
               </Paragraph> : null}
@@ -92,7 +92,7 @@ function App() {
             <Box basis='medium' flex={true} pad='medium' >
               <Heading level={2} color='dark'>Unfollow Monkey is free for everyone</Heading>
               <Paragraph>Unfollow Monkey is based on the <Link href='https://github.com/PLhery/unfollowNinja'>open-source</Link> project <Link href='https://unfollow.ninja'>unfollowNinja</Link>, maintained by <Link href='https://twitter.com/plhery'>@plhery</Link>.</Paragraph>
-              <Paragraph>I'm looking for a way to keep the project substainable/to pay the server. If you have any suggestion, <Link href='https://twitter.com/messages/compose?recipient_id=290981389'>send me a message</Link> on Twitter!</Paragraph>
+              <Paragraph>I'm looking for a way to keep the project substainable, to pay for the server. If you have any suggestions, <Link href='https://twitter.com/messages/compose?recipient_id=290981389'>send me a message</Link> on Twitter!</Paragraph>
               <Box gap='small' alignSelf='center' style={{overflow: 'hidden'}}>
                 <RepoCard username="plhery" repo="unfollowninja"/>
               </Box>
