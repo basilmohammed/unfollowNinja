@@ -11,10 +11,24 @@
  </metadata>
  <defs>
   <style>.a,.i{fill:#564843;}.b{fill:#443833;}.b,.e,.f,.g,.h,.i,.j,.k,.l,.m,.n,.o{fill-rule:evenodd;}.c{fill:#ded3d0;}.d,.j{fill:#f5efef;}.e{fill:#9f2f60;}.f{fill:#f2a273;}.g{fill:#e3844e;}.h,.o{fill:#fff;}.k{fill:#beaea9;}.l{fill:#0b6d91;}.m{fill:#31a2cc;}.n{fill:#6fc8ee;}.o{opacity:0.2;}.p{fill:#edeced;}.q{fill:#1d1d1b;}.r{fill:#43ade2;}.s{fill:#ffdd67;}.t{fill:#eba353;}.u{fill:url(#a);}.v{fill:#15162e;}.w{fill:url(#b);}.x{fill:url(#c);}.y{fill:url(#d);}.z{fill:url(#e);}.aa{fill:none;stroke-miterlimit:10;stroke:url(#f);}</style>
-  <style>#bubble {
+  <style>
+   @font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 300;
+   font-display: swap;
+   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format('woff2');
+   }
+   @font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+   }
+   #bubble {
      transition: transform .6s ease;
    }
-
    svg:hover #bubble {
      transform: translateY(-50px);
    }</style>
