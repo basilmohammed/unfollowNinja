@@ -42,7 +42,7 @@ export async function checkAllFollowers(workerId: number, nbWorkers: number, dao
           }));
 
         await Promise.all(promises);
-        metrics.gauge(`uninja.check-duration.worker.${workerId}`, Date.now() - startedAt);
+        metrics.gauge(`umonkey.check-duration.worker.${workerId}`, Date.now() - startedAt);
     } catch (error) {
         Sentry.captureException(error);
         logger.error(error);
@@ -76,7 +76,7 @@ export async function checkAllVipFollowers(workerId: number, nbWorkers: number, 
     }
 
     const checkDuration =  Date.now() - startedAt;
-    metrics.gauge(`uninja.check-vip-duration.worker.${workerId}`, checkDuration);
+    metrics.gauge(`umonkey.check-vip-duration.worker.${workerId}`, checkDuration);
 
     // check every minute minimum (Twitter's limit for the followers/ids API requests)
     setTimeout(
